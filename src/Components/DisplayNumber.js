@@ -1,12 +1,12 @@
 
 
-export default function DisplayNumber() {
+export default function DisplayNumber({ number }) {
     return (
         <div>
             <h1>Display Number</h1>
             
             {/* 인풋 박스 */}
-            <input type="text" value="0" readOnly></input>
+            <input type="text" value={ number } readOnly></input>
         </div>
     )
 }
