@@ -1,0 +1,10 @@
+/* ===== 컬러칩 ===== */
+$blueColor:rgb(37, 140, 180);
+
+/* ===== div 박스 ===== */
+div{
+    padding:10px;
+    margin:20px;
+    border:5px solid $blueColor;
+    color:$blueColor;
+}
